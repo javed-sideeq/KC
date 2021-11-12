@@ -9,6 +9,7 @@ public class Basket {
     }
 
     Set<Product> products; //We don't want duplicate products, so we use set, the quantity should be updated instead
+    // and override the equals and hashCode methods to ensure proper use in collections
     PromotionalRules promotionalRules;
 
     public Double getBasketTotal() {

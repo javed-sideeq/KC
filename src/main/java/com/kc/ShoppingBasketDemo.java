@@ -5,6 +5,7 @@ import java.util.*;
 public class ShoppingBasketDemo {
 
     public static void main(String[] args) {
+
         //create promotions
         PromotionalRules promotionalRules = new PromotionalRules();
         Map percentageDiscountToThresholdValue = new HashMap<Integer, Double>();
